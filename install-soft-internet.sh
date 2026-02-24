@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+
+# Script
+# by
+# Tolyak26
+# URL: github.com/Tolyak26/arch-linux-install
+
+echo ""
+echo "- Installing packages for internet ... "
+echo ""
+
+## Qbittorrent
+sudo pacman -S --noconfirm --disable-download-timeout --needed qbittorrent
+##
+
+## Discord
+sudo pacman -S --noconfirm --disable-download-timeout --needed discord
+##
+
+## Telegram
+sudo pacman -S --noconfirm --disable-download-timeout --needed telegram-desktop
+##
+
+## Xdman
+###paru -S --noconfirm --needed --removemake xdman
+##
+
+## Google Chrome (Stable)
+paru -S --noconfirm --needed --removemake google-chrome
+##
+
+## Brave (Binary)
+paru -S --noconfirm --needed --removemake brave-bin
+##
+
+## Parsec
+paru -S --noconfirm --needed --removemake parsec-bin
+##
+
+## Hiddify
+paru -S --noconfirm --needed --removemake hiddify-app-bin
+##
