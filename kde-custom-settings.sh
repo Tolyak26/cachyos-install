@@ -9,7 +9,7 @@ kwriteconfig6 --file kglobalshortcutsrc --group "KDE Keyboard Layout Switcher" -
 
 kwriteconfig6 --file ksmserverrc --group General --key loginMode "emptySession"
 
-kwriteconfig6 --file kwinrulesrc --group "2766ef59-bc26-4493-ad9c-4d7ae1b6c8a4" --key Description "Window settings for Picture in picture"
+kwriteconfig6 --file kwinrulesrc --group "2766ef59-bc26-4493-ad9c-4d7ae1b6c8a4" --key Description "Window settings for Picture in picture (Brave)"
 kwriteconfig6 --file kwinrulesrc --group "2766ef59-bc26-4493-ad9c-4d7ae1b6c8a4" --key above true
 kwriteconfig6 --file kwinrulesrc --group "2766ef59-bc26-4493-ad9c-4d7ae1b6c8a4" --key aboverule 3
 kwriteconfig6 --file kwinrulesrc --group "2766ef59-bc26-4493-ad9c-4d7ae1b6c8a4" --key title "Picture in picture"
@@ -22,7 +22,7 @@ kwriteconfig6 --file kwinrulesrc --group "2766ef59-bc26-4493-ad9c-4d7ae1b6c8a4" 
 kwriteconfig6 --file kwinrulesrc --group General --key count 2
 kwriteconfig6 --file kwinrulesrc --group General --key rules "df1db19b-68ed-40c9-a48a-7027c3079eea,2766ef59-bc26-4493-ad9c-4d7ae1b6c8a4"
 
-kwriteconfig6 --file kwinrulesrc --group "df1db19b-68ed-40c9-a48a-7027c3079eea" --key Description "Window settings for Picture in picture"
+kwriteconfig6 --file kwinrulesrc --group "df1db19b-68ed-40c9-a48a-7027c3079eea" --key Description "Window settings for Picture in picture (Chrome)"
 kwriteconfig6 --file kwinrulesrc --group "df1db19b-68ed-40c9-a48a-7027c3079eea" --key above true
 kwriteconfig6 --file kwinrulesrc --group "df1db19b-68ed-40c9-a48a-7027c3079eea" --key aboverule 3
 kwriteconfig6 --file kwinrulesrc --group "df1db19b-68ed-40c9-a48a-7027c3079eea" --key title "Picture in picture"
