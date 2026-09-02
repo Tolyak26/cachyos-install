@@ -34,7 +34,7 @@ kwriteconfig6 --file kwinrulesrc --group "df1db19b-68ed-40c9-a48a-7027c3079eea" 
 
 kwriteconfig6 --file kxkbrc --group Layout --key DisplayNames ","
 kwriteconfig6 --file kxkbrc --group Layout --key LayoutList "us,ru"
-kwriteconfig6 --file kxkbrc --group Layout --key ResetOldOptions true
+###kwriteconfig6 --file kxkbrc --group Layout --key ResetOldOptions true
 kwriteconfig6 --file kxkbrc --group Layout --key Use true
 kwriteconfig6 --file kxkbrc --group Layout --key VariantList ","
 

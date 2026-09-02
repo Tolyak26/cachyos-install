@@ -38,5 +38,5 @@ paru -S --noconfirm --needed --removemake parsec-bin
 ##
 
 ## Hiddify
-paru -S --noconfirm --needed --removemake hiddify-app-bin
+###paru -S --noconfirm --needed --removemake hiddify-app-bin
 ##

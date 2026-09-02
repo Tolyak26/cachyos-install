@@ -11,6 +11,6 @@ sudo curl -sSL https://raw.githubusercontent.com/Tolyak26/arch-linux-install/ref
 sudo systemctl enable toggle-gpp0-to-fix-wakeup
 sudo systemctl enable wol@eno1
 
-sudo cp -v /usr/share/applications/octopi-notifier.desktop /etc/xdg/autostart
+###sudo cp -v /usr/share/applications/octopi-notifier.desktop /etc/xdg/autostart
 
-sudo curl -sSL https://raw.githubusercontent.com/Tolyak26/arch-linux-install/refs/heads/master/cfg-files/system/etc/X11/xorg.conf.d/00-keyboard.conf -o /etc/X11/xorg.conf.d/00-keyboard.conf
+###sudo curl -sSL https://raw.githubusercontent.com/Tolyak26/arch-linux-install/refs/heads/master/cfg-files/system/etc/X11/xorg.conf.d/00-keyboard.conf -o /etc/X11/xorg.conf.d/00-keyboard.conf
