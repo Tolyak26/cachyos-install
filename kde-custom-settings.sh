@@ -21,6 +21,7 @@ kwriteconfig6 --file kwinrulesrc --group "2766ef59-bc26-4493-ad9c-4d7ae1b6c8a4" 
 kwriteconfig6 --file kwinrulesrc --group "2766ef59-bc26-4493-ad9c-4d7ae1b6c8a4" --key wmclass "brave brave"
 kwriteconfig6 --file kwinrulesrc --group "2766ef59-bc26-4493-ad9c-4d7ae1b6c8a4" --key wmclasscomplete true
 kwriteconfig6 --file kwinrulesrc --group "2766ef59-bc26-4493-ad9c-4d7ae1b6c8a4" --key wmclassmatch 1
+kwriteconfig6 --file kwinrulesrc --group "2766ef59-bc26-4493-ad9c-4d7ae1b6c8a4" --key layer "osd"
 
 kwriteconfig6 --file kwinrulesrc --group "df1db19b-68ed-40c9-a48a-7027c3079eea" --key Description "Window settings for Picture in picture (Chrome)"
 kwriteconfig6 --file kwinrulesrc --group "df1db19b-68ed-40c9-a48a-7027c3079eea" --key above true
@@ -31,6 +32,7 @@ kwriteconfig6 --file kwinrulesrc --group "df1db19b-68ed-40c9-a48a-7027c3079eea" 
 kwriteconfig6 --file kwinrulesrc --group "df1db19b-68ed-40c9-a48a-7027c3079eea" --key wmclass "chrome chrome"
 kwriteconfig6 --file kwinrulesrc --group "df1db19b-68ed-40c9-a48a-7027c3079eea" --key wmclasscomplete true
 kwriteconfig6 --file kwinrulesrc --group "df1db19b-68ed-40c9-a48a-7027c3079eea" --key wmclassmatch 1
+kwriteconfig6 --file kwinrulesrc --group "df1db19b-68ed-40c9-a48a-7027c3079eea" --key layer "osd"
 
 kwriteconfig6 --file kwinrulesrc --group "bd7d1c23-0bef-40b4-9f33-4d0682ea738f" --key Description "Window settings for Picture in picture (Chromium)"
 kwriteconfig6 --file kwinrulesrc --group "bd7d1c23-0bef-40b4-9f33-4d0682ea738f" --key above true
@@ -41,6 +43,7 @@ kwriteconfig6 --file kwinrulesrc --group "bd7d1c23-0bef-40b4-9f33-4d0682ea738f" 
 kwriteconfig6 --file kwinrulesrc --group "bd7d1c23-0bef-40b4-9f33-4d0682ea738f" --key wmclass "chromium chromium"
 kwriteconfig6 --file kwinrulesrc --group "bd7d1c23-0bef-40b4-9f33-4d0682ea738f" --key wmclasscomplete true
 kwriteconfig6 --file kwinrulesrc --group "bd7d1c23-0bef-40b4-9f33-4d0682ea738f" --key wmclassmatch 1
+kwriteconfig6 --file kwinrulesrc --group "bd7d1c23-0bef-40b4-9f33-4d0682ea738f" --key layer "osd"
 
 kwriteconfig6 --file kxkbrc --group Layout --key DisplayNames ","
 kwriteconfig6 --file kxkbrc --group Layout --key LayoutList "us,ru"
