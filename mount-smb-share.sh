@@ -108,7 +108,7 @@ EOF
         continue
     fi
 
-    echo "$SMB_SHARE $MOUNT_POINT $FS_TYPE credentials=$CRED_FILE,uid=$SMB_USER,gid=users,_netdev,nofail,x-gvfs-show,x-gvfs-name=$MOUNT_LABEL 0 0" >> "$FSTAB"
+    echo "$SMB_SHARE $MOUNT_POINT $FS_TYPE credentials=$CRED_FILE,uid=$SMB_USER,gid=$SMB_USER,_netdev,nofail,x-gvfs-show,x-gvfs-name=$MOUNT_LABEL 0 0" >> "$FSTAB"
     ADDED_MOUNTS+=("$MOUNT_POINT")
     log "✔ Добавлено в fstab"
 done

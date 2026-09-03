@@ -4,7 +4,7 @@
 # Формат:
 # "//server/share:/mnt/point:mount-label:/path/to/credentials"
 LOCAL_SHARES=(
-    "/dev/sdb1:/mnt/sdb1:ntfs:ssd_ntfs_2_1tb"
+    "/dev/sdb1:/mnt/sdb1:ntfs3:ssd_ntfs_2_1tb"
     "/dev/nvme0n1p1:/mnt/nvme0n1p1:ext4:nvme_ext4_3_2tb"
 )
 
@@ -76,8 +76,8 @@ for ENTRY in "${LOCAL_SHARES[@]}"; do
         continue
     fi
 
-    if [ $MOUNT_FS_TYPE == "ntfs" ]; then
-        echo "$LOCAL_SHARE $MOUNT_POINT $MOUNT_FS_TYPE uid=tolyak26,gid=users,nofail,x-gvfs-show,x-gvfs-name=$MOUNT_LABEL 0 0" >> "$FSTAB"
+    if [ $MOUNT_FS_TYPE == "ntfs3" ]; then
+        echo "$LOCAL_SHARE $MOUNT_POINT $MOUNT_FS_TYPE uid=tolyak26,gid=tolyak26,nofail,x-gvfs-show,x-gvfs-name=$MOUNT_LABEL,windows_names 0 0" >> "$FSTAB"
     fi
 
     if [ $MOUNT_FS_TYPE == "ext4" ]; then

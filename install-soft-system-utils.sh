@@ -32,3 +32,7 @@ sudo pacman -S --noconfirm --disable-download-timeout --needed cpu-x
 ## Gnome Disk Utility
 sudo pacman -S --noconfirm --disable-download-timeout --needed gnome-disk-utility
 ##
+
+## ntfs-3g
+sudo pacman -S --noconfirm --disable-download-timeout --needed ntfs-3g
+##
